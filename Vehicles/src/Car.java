@@ -1,8 +1,8 @@
 
 public class Car extends Vehicle{
 
-	public Car(String name) {
-		super(name);
+	public Car(String name, int kilometers) {
+		super(name, kilometers);
 	}
 
 

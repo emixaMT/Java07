@@ -4,15 +4,13 @@ public abstract class Vehicle
 	private String brand;
 	private int kilometers;
 	
-	public Vehicle(String name)
+	public Vehicle(String name, int kilometers)
 	{
-		brand = this.brand;
-		kilometers = this.kilometers;
+		this.brand = name;
+		this.kilometers = kilometers ;
 	}
 	
 	public abstract String doStuff();
-	
-	
 	
 	
 	//Getter et Setter

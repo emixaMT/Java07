@@ -1,8 +1,13 @@
 
 public class Boat extends Vehicle{
 
-	public Boat(String name) {
-		super(name);
+	public Boat(String brand) {
+		super(brand, 100);
+	}
+	
+	
+	public Boat(String brand, int kilometers) {
+		super(brand, kilometers);
 	}
 	
 	@Override
